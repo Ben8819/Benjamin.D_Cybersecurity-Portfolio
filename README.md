@@ -1,4 +1,4 @@
-# Benjamin.D Cybersecurity Portfolio
+# Benjamin.D - My Cybersecurity Portfolio
 
 This repository documents my journey transitioning from IT support to cybersecurity, with a focus on SOC Analyst skills.
 
