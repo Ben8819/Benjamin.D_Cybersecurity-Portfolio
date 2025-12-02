@@ -195,7 +195,7 @@ As I grow from IT Support → SOC Analyst → more advanced roles, this reposito
 -----
 ### 🌐 Connect with Me
 
-**LinkedIn:**  https://www.linkedin.com/in/benjamin-damaye/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/benjamin-damaye/)
 
 <div align="center">
 
