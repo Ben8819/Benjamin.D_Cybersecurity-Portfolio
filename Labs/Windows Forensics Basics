@@ -1,0 +1,57 @@
+# 🧪 Lab: Windows Event Log Investigation
+
+## 🎯 Goal
+Practice investigating Windows logs (Event Viewer + Sysmon) to identify suspicious activity.
+
+---
+
+# 1. Logs Analyzed
+- Security  
+- System  
+- PowerShell  
+- Sysmon  
+
+---
+
+# 2. Events I Focused On
+
+### 🔹 Failed login attempts  
+**Event ID 4625**
+
+### 🔹 Successful login  
+**Event ID 4624**
+
+### 🔹 Process creation  
+**Event ID 4688**  
+**Sysmon ID 1**
+
+### 🔹 Network connections  
+**Sysmon ID 3**
+
+### 🔹 PowerShell execution  
+**Event ID 4104**  
+
+---
+
+# 3. What I Investigated
+- A suspicious PowerShell script  
+- Multiple failed logins from same IP  
+- Unknown process launching a child process  
+- A service modification event  
+
+---
+
+# 4. What I Learned
+- How to follow a process tree  
+- What normal Windows events look like  
+- How malware often abuses PowerShell  
+- How lateral movement leaves traces  
+
+---
+
+# 5. SOC Relevance
+Windows logs are the backbone of SOC investigation.  
+This lab helps with:
+- Triage  
+- Threat hunting  
+- Incident classification  
