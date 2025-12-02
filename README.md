@@ -27,7 +27,7 @@ Longer projects like a home SOC lab, Wazuh, scripting, automation, etc.
 
 ---
 
-# Why This Portfolio Exists
+## Why This Portfolio Exists
 
 Because cybersecurity hiring isn’t just about certifications.  
 It’s about showing:
@@ -43,7 +43,7 @@ This portfolio demonstrates all of that.
 
 ---
 
-# My Goal
+## My Goal
 
 To join a Security Operations Center where I can:
 
@@ -59,7 +59,7 @@ I don’t aim to know everything. I aim to learn *fast*, ask the right questions
 
 ---
 
-# Skills Highlight
+## Skills Highlight
 
 - Security+ certified (SY0-701)  
 - SIEM Analysis  
@@ -74,7 +74,7 @@ I don’t aim to know everything. I aim to learn *fast*, ask the right questions
 
 ---
 
-# 📬 Contact
+## 📬 Contact
 
 **LinkedIn:**  (https://www.linkedin.com/in/benjamin-damaye/)
 
