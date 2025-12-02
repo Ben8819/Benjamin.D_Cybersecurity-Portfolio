@@ -1,0 +1,67 @@
+# 🧪 Lab: SIEM Analysis with Splunk
+
+## 🎯 Goal
+Practice searching, filtering, and analyzing logs inside Splunk to simulate SOC alert investigations.
+
+---
+
+# 1. Logs Used
+- Authentication logs  
+- Windows Event Logs  
+- Linux `/var/log/auth.log`  
+- Network connection logs  
+- PowerShell operational logs  
+
+---
+
+# 2. SPL Queries Practiced
+
+### 🔹 Failed SSH login attempts
+
+index=linux sourcetype=auth "Failed password"
+| stats count by user, src
+
+
+### 🔹 Suspicious PowerShell activity
+
+index=windows CommandLine="EncodedCommand"
+
+
+### 🔹 Outbound traffic anomalies
+
+index=network dest_port!=80 dest_port!=443
+| stats count by src_ip, dest_ip, dest_port
+
+
+### 🔹 User login map
+
+index=auth action=success
+| stats count by user src_ip
+
+
+---
+
+# 3. Dashboard I Built
+- Failed logins by user  
+- Top source IPs  
+- Outbound traffic volume  
+- Suspicious processes by count  
+
+---
+
+# 4. What I Learned
+- How to interpret raw logs  
+- How to extract meaningful patterns  
+- How SIEM correlation rules work behind the scenes  
+- How alerts are triggered from specific behaviours  
+
+---
+
+# 5. SOC Relevance
+SIEM proficiency is essential for:
+- Alert triage  
+- Threat hunting  
+- Log correlation  
+- Incident documentation  
+
+This lab gives me the foundation to work with real SIEM tools in a SOC.
