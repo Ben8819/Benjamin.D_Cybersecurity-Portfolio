@@ -12,7 +12,7 @@ This portfolio is a work in progress and will grow as I continue learning.
 
 ## 📁 Structure
 
-### [Learning](learning/)
+### [Learning]
 Notes, summaries, and concepts I study.
 
 ### [Labs](labs/)
