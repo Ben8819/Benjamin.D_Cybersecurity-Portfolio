@@ -111,7 +111,7 @@ Hands-on exercises (Wireshark, GNS3, Splunk, Sysmon, Wazuh, Windows logs, Linux 
 ### 🧩 [Projects](/Projects)
 Bigger, structured projects like my Home SOC Lab, Wazuh deployment, and Python automation tools.
 
-### 📚 [Resources](learning/Resources)
+### 📚 [Resources](/Resources)
 Curated list of all my learning sources: platforms, courses, documentation, tutorials, and videos.
 
 
