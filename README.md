@@ -102,16 +102,16 @@ This portfolio is a work in progress and will grow as I continue learning.
 
 ## 📁 Repository Structure
 
-### 📘 [Learning](/learning)
+### 📘 [Learning](/Learning)
 Notes, summaries, and fundamentals from IT, networking, cybersecurity, and computer science.
 
-### 🔬 [Labs](/labs)
+### 🔬 [Labs](/Labs)
 Hands-on exercises (Wireshark, GNS3, Splunk, Sysmon, Wazuh, Windows logs, Linux logs, Snort rules…).
 
-### 🧩 [Projects](/projects)
+### 🧩 [Projects](/Projects)
 Bigger, structured projects like my Home SOC Lab, Wazuh deployment, and Python automation tools.
 
-### 📚 [Resources](learning/resources.md)
+### 📚 [Resources](learning/Resources.md)
 Curated list of all my learning sources: platforms, courses, documentation, tutorials, and videos.
 
 
