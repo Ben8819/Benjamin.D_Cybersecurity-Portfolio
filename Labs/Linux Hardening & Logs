@@ -1,0 +1,47 @@
+# 🧪 Lab: Linux Log Analysis & Hardening
+
+## 🎯 Goal
+Strengthen a Linux system and analyze logs to detect suspicious behaviour.
+
+---
+
+# 1. Hardening Steps Performed
+- Disabled SSH root login  
+- Configured firewall (ufw)  
+- Limited SSH to key-based authentication  
+- Stopped unused services  
+- Adjusted file permissions  
+
+---
+
+# 2. Logs Analyzed
+- `/var/log/auth.log`  
+- `/var/log/syslog`  
+- `/var/log/kern.log`  
+- `journalctl -xe`  
+
+---
+
+# 3. What I Looked For
+- Failed SSH attempts  
+- Unauthorized sudo attempts  
+- New users being created  
+- Services restarting unexpectedly  
+- Cron jobs modified  
+
+---
+
+# 4. What I Learned
+- How to detect brute-force attacks  
+- How Linux authentication works  
+- How privilege escalation attempts appear in logs  
+- What typical Linux noise looks like  
+
+---
+
+# 5. SOC Relevance
+Linux servers often host critical services.  
+Understanding logs is essential for:
+- Alert validation  
+- Threat hunting  
+- Server compromise investigations  
