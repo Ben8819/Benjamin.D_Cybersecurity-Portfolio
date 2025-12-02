@@ -1,0 +1,84 @@
+# 🐍 Project: Python Log Parser Tool
+
+## 🎯 Objective
+Create a small Python script to extract important information from log files (authentication, failed attempts, suspicious IPs).
+
+This is a simple but useful automation tool — similar to what SOC analysts might build to analyze logs faster.
+
+---
+
+# 1. What the Tool Does
+
+### ✔ Reads a log file line by line  
+Supports Linux logs or custom log files.
+
+### ✔ Looks for suspicious patterns  
+Examples:
+- “Failed password”
+- Repeated failed logins
+- Unknown users
+- IP addresses not seen before
+
+### ✔ Extracts IP addresses  
+Uses regex to detect IPv4.
+
+### ✔ Summarizes data  
+Counts:
+- Failures per IP  
+- Most active attackers  
+- Time-based distribution  
+
+---
+
+# 2. Example Code
+
+```python
+import re
+from collections import Counter
+
+log_file = "auth.log"
+
+ips = []
+
+with open(log_file, "r") as file:
+    for line in file:
+        if "Failed password" in line:
+            ip = re.findall(r"[0-9]+(?:\.[0-9]+){3}", line)
+            if ip:
+                ips.append(ip[0])
+
+print("Top attacking IPs:")
+for ip, count in Counter(ips).most_common(10):
+    print(ip, count)
+
+---
+
+# 3. What I Learned
+
+- Regular expressions
+- File parsing in Python
+- Pattern matching in logs
+- Identifying brute force attempts
+- Automating small SOC tasks
+
+---
+
+# 4. Next Improvements (Planned)
+
+- Add CLI arguments
+- Output CSV or JSON
+- Integrate GeoIP
+- Detect unusual login hours
+- Create visualizations
+
+---
+
+# 5. Why This Project Matters
+
+Being able to write small scripts to speed up investigation — even simple ones — is extremely valuable in a SOC environment.
+
+It shows:
+
+- Resourcefulness
+- Automation mindset
+- Ability to handle repetitive tasks efficiently
