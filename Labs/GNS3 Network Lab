@@ -1,0 +1,78 @@
+# 🧪 Lab: Building a Virtual Network with GNS3
+
+## 🎯 Goal
+Create a small virtual network to understand traffic flow, routing, NAT, and how defensive controls work.
+
+---
+
+# 1. Topology
+
+[Client 1] --
+[Switch] -- [Router] -- Internet
+[Client 2] --/
+
+
+- Two hosts  
+- One switch  
+- One router with NAT  
+- Optional firewall appliance  
+
+---
+
+# 2. What I Configured
+
+### 2.1 IP addressing & DHCP  
+Configured static IP on router, DHCP pool for clients.
+
+### 2.2 Routing  
+- Default route to internet  
+- NAT masquerading  
+
+### 2.3 Firewall / ACLs  
+Basic rules like:
+- Allow HTTP/HTTPS  
+- Block unknown outbound ports  
+- Log denies  
+
+### 2.4 Traffic generation  
+- Browsing  
+- DNS queries  
+- Ping tests  
+- Simulated scans using nmap  
+
+---
+
+# 3. What I Observed
+
+### Traffic flow
+Which packets go where, understanding:
+- ARP  
+- DHCP  
+- DNS flow  
+- Route decisions  
+
+### Logs from router/firewall  
+Saw:
+- Allowed connections  
+- Denied outbound ports  
+- Scan detection  
+
+---
+
+# 4. What I Learned
+- How network layers interact  
+- How routing tables make decisions  
+- How firewalls enforce rules  
+- How to create a safe environment for future SOC-style labs  
+- How attackers scan and probe networks  
+
+---
+
+# 5. SOC Relevance
+SOC analysts need to understand:
+- Network paths  
+- Packet behaviour  
+- What “normal” traffic looks like  
+- How misconfigurations create vulnerabilities  
+
+This lab is the foundation for SIEM, IDS, and packet capture work.
