@@ -21,7 +21,7 @@ Documented hands-on labs (Wireshark, Splunk, Sysmon, Linux logs, GNS3, etc.)
 ###  [Projects](/Projects)
 Longer projects like a home SOC lab, Wazuh, scripting, automation, etc.
 
----
+
 
 *More content coming soon as I build and document my progress.*
 
