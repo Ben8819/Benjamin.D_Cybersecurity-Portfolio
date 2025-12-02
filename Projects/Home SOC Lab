@@ -1,0 +1,99 @@
+# 🏠 Project: Home SOC Lab
+
+## 🎯 Objective
+Build a small, realistic environment to practice SOC workflows:
+- Monitoring
+- Detection
+- Log analysis
+- Basic incident response
+- Understanding attacker behaviour
+
+This lab simulates the core elements of a real SOC pipeline.
+
+---
+
+# 1. Architecture Overview
+
+[Windows VM] → Sysmon → Wazuh → SIEM
+[Linux Server] → Syslog → Wazuh → SIEM
+[Kali Attacker] → Scans / Payloads
+[GNS3 Network] → Routing, NAT, traffic generation
+
+
+Components:
+- **GNS3** for virtual network  
+- **Windows VM** (Sysmon + event logs)  
+- **Linux VM** (syslog, SSH, services)  
+- **Wazuh** for endpoint monitoring  
+- **Splunk Free** (or Elastic) for SIEM  
+- **Kali** to generate attack-like behaviour  
+
+---
+
+# 2. What I Deployed
+
+### ✔ GNS3 Network
+- Router + switch + clients  
+- NAT to simulate internet  
+- Firewall rules to log traffic  
+
+### ✔ Windows VM
+- Installed Sysmon  
+- Enabled PowerShell logging  
+- Forwarded logs to Wazuh/SIEM  
+
+### ✔ Linux VM
+- SSH server enabled  
+- Hardening applied  
+- Syslog forwarding  
+
+### ✔ SIEM (Splunk)
+- Configured data sources  
+- Built simple dashboards  
+- Enabled alerting for:
+  - brute force  
+  - suspicious PowerShell  
+  - unknown processes  
+
+### ✔ Wazuh Manager
+- Agent installed on all endpoints  
+- FIM (File Integrity Monitoring)  
+- Command execution auditing  
+
+---
+
+# 3. Attacks Simulated (Safe)
+
+- SSH brute force from Kali  
+- Windows PowerShell encoded command  
+- Port scanning with nmap  
+- Suspicious outbound connections  
+- File modification attempts  
+
+---
+
+# 4. What I Learned
+
+### Technical understanding
+- How logs move from endpoints → Wazuh → SIEM  
+- How to detect failed logins, privilege escalation, process abuse  
+- How Sysmon improves visibility  
+- How firewall rules log traffic  
+- How SIEM searches and dashboards correlate data  
+
+### SOC workflow
+- Triage alerts  
+- Investigate related events  
+- Escalate with evidence  
+- Document findings  
+
+---
+
+# 5. Why This Project Matters
+This project shows:
+- Hands-on SIEM experience  
+- Endpoint monitoring setup  
+- Network-level understanding  
+- Real investigative workflow  
+
+It’s the closest thing to “real SOC experience” without being on a SOC team.
