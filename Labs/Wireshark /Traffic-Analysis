@@ -1,0 +1,68 @@
+# 🧪 Lab: Network Traffic Analysis with Wireshark
+
+## 🎯 Goal
+Understand how to capture, filter, and analyze network traffic to identify normal patterns and potential anomalies.
+
+---
+
+# 1. Environment Setup
+- VM running Linux or Windows  
+- Wireshark installed  
+- Browser to generate traffic  
+- Basic network connectivity
+
+---
+
+# 2. What I Did
+
+### 2.1 Captured live traffic
+I started a packet capture and generated normal user traffic:
+- Browsing websites  
+- DNS lookups  
+- ICMP ping  
+- A few HTTP requests  
+
+### 2.2 Applied filters
+Some filters I practiced:
+
+dns
+http
+tcp.flags.syn==1
+icmp
+ip.addr == <target IP>
+
+
+### 2.3 Analyzed key protocols
+I looked at:
+- TCP 3-way handshake  
+- DNS query/response  
+- HTTP request headers  
+- TLS Client Hello  
+
+### 2.4 Looked for anomalies
+Practiced spotting:
+- Unknown IPs  
+- STRANGE domains  
+- Suspicious TTL values  
+- Odd user-agent strings  
+- Long-lived sessions  
+
+---
+
+# 3. What I Learned
+- How protocols behave in normal conditions  
+- How to follow a single TCP conversation  
+- The difference between baseline traffic and anomalies  
+- How attackers can hide inside usual traffic  
+- Why SOC alerts involving DNS or HTTP require packet context
+
+---
+
+# 4. Why This Lab Matters for a SOC Analyst
+SOC work often involves:
+- Investigating network alerts  
+- Understanding traffic flows  
+- Detecting C2-like behaviour  
+- Checking for data exfiltration patterns  
+
+Wireshark gives the low-level visibility needed to validate or dismiss alerts.
