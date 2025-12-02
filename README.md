@@ -1,4 +1,4 @@
-# Benjamin .D - My Portfolio
+# Ben’s Cybersecurity & IT Portfolio
 
 ## 👋 About Me
 
@@ -6,9 +6,10 @@ I’m Benjamin — an IT professional transitioning into cybersecurity, with 6 y
 I’m actively working toward my first SOC Analyst role while documenting everything I learn in this portfolio.
 
 My strengths come from a mix of real-world troubleshooting, curiosity, and disciplined self-study in networking, system internals, log analysis, and security fundamentals.  
-This repository is my way of learning in public, staying accountable, and building the practical skills that matter in security operations.
 
 This portfolio is a work in progress and will grow as I continue learning.
+
+<br>
 
 ## 🏷️ Badges
 
@@ -54,8 +55,7 @@ This portfolio is a work in progress and will grow as I continue learning.
 ![Shodan](https://img.shields.io/badge/Shodan-FF0000?logo=shutterstock&logoColor=white)
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?logo=virustotal&logoColor=white)
 
-
-
+<br>
 
 ## 🛠 Skills Overview
 
@@ -98,6 +98,7 @@ This portfolio is a work in progress and will grow as I continue learning.
 - Web fundamentals: HTML, CSS, JavaScript, HTTP
 - C basics (memory, pointers, compilation — through CS50x)
 
+<br>
 
 ## 📁 Repository Structure
 
@@ -118,6 +119,8 @@ Curated list of all my learning sources: platforms, courses, documentation, tuto
 
 ---
 
+<br>
+
 ## 🎯 My Goals
 
 ### **1️⃣ Primary Goal — Secure my first SOC / Blue Team role**
@@ -134,7 +137,7 @@ Everything I learn, practice, and document in this portfolio is oriented toward 
 
 This is the next step in my career, and the core focus of my learning path.
 
----
+<br>
 
 ### **2️⃣ Build strong, practical cybersecurity abilities**
 
@@ -148,7 +151,7 @@ To prepare for SOC roles, I'm actively working on:
 - MITRE ATT&CK techniques  
 - Blue team fundamentals  
 
----
+<br>
 
 ### **3️⃣ Maintain long-term, structured learning habits**
 
@@ -164,7 +167,7 @@ Beyond job readiness, I aim to continue expanding my foundational knowledge in:
  
 These fundamentals make me stronger over time and increase my ability to investigate effectively.
 
----
+<br>
 
 ### **4️⃣ Share my journey with the IT & cybersecurity community**
 
@@ -174,8 +177,7 @@ I want my documentation, labs, mistakes, and progress to:
 - show my transparency and growth  
 - contribute to the learning culture of cybersecurity  
 
-
----
+<br>
 
 ### **5️⃣ Build a personal knowledge base I can grow indefinitely**
 
@@ -186,14 +188,18 @@ As I grow from IT Support → SOC Analyst → more advanced roles, this reposito
 - tools  
 - ideas  
 - scripts  
-- research  
+- research
 
-## 📬 Contact
+<br>
 
-**LinkedIn:**  (https://www.linkedin.com/in/benjamin-damaye/)
+-----
+### 🌐 Connect with Me
+
+**LinkedIn:**  https://www.linkedin.com/in/benjamin-damaye/
 
 <div align="center">
 
+<br><br>
 
 💬 *Thanks for visiting*
 
