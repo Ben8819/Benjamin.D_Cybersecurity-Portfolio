@@ -12,13 +12,13 @@ This portfolio is a work in progress and will grow as I continue learning.
 
 ## 📁 Structure
 
-### [Learning](Benjamin.D_Cybersecurity-Portfolio/Learning)
+### [Learning](/Learning)
 Notes, summaries, and concepts I study.
 
-### [Labs](Benjamin.D_Cybersecurity-Portfolio/Labs)
+### [Labs](/Labs)
 Documented hands-on labs (Wireshark, Splunk, Sysmon, Linux logs, GNS3, etc.)
 
-###  [Projects](Benjamin.D_Cybersecurity-Portfolio/Projects)
+###  [Projects](/Projects)
 Longer projects like a home SOC lab, Wazuh, scripting, automation, etc.
 
 ---
