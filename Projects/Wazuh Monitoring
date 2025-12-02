@@ -1,0 +1,88 @@
+# 🛡️ Project: Wazuh Endpoint Monitoring Lab
+
+## 🎯 Objective
+Deploy Wazuh to monitor Windows and Linux endpoints, generate alerts, and understand host-level visibility.
+
+---
+
+# 1. Setup
+
+### ✔ Wazuh Manager (server)  
+- Installed on Linux VM  
+- Configured API + dashboard  
+- Tuned default ruleset  
+
+### ✔ Wazuh Agents  
+Installed on:
+- Windows VM  
+- Linux VM  
+- Optional GNS3 hosts  
+
+### ✔ Sysmon Integration (Windows)
+- Enabled enhanced logging  
+- Sysmon logs sent to Wazuh  
+- Mapped events to ATT&CK techniques  
+
+---
+
+# 2. Features Tested
+
+### 🔹 File Integrity Monitoring (FIM)
+Tracked changes to:
+- Windows system32  
+- Linux `/etc/`  
+- User profile directories  
+
+### 🔹 Command Execution Monitoring
+Detected:
+- PowerShell encoded commands  
+- Bash reverse shells  
+- Suspicious process chains  
+
+### 🔹 Authentication Monitoring
+Detected:
+- Invalid logins  
+- Privilege escalation  
+- Unknown accounts  
+
+### 🔹 Malware-like Behaviour
+Simulated:
+- Port scans  
+- Temp file creation  
+- Script execution  
+
+---
+
+# 3. Alerts Reviewed
+
+Examples of alerts I saw:
+- “Possible brute force attack detected”  
+- “Suspicious PowerShell command”  
+- “New service installed”  
+- “Unauthorized file modification”  
+- “Non-standard outbound connection detected”  
+
+---
+
+# 4. What I Learned
+
+### Technical skills
+- Configuring agents  
+- Understanding event IDs  
+- Mapping events to MITRE ATT&CK  
+- Tuning rules to reduce false positives  
+
+### SOC skills
+- Investigating alerts  
+- Following process trees  
+- Identifying malicious patterns  
+- Distinguishing noise from real signals  
+
+---
+
+# 5. Why It Matters
+Wazuh is similar to EDR/host-level telemetric tools used in SOCs (CrowdStrike, SentinelOne, Defender ATP).  
+This project demonstrates:
+- Real endpoint monitoring  
+- Host-level threat detection  
+- Basic incident workflow  
