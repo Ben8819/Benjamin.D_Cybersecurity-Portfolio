@@ -1,0 +1,47 @@
+# 🧪 Lab: Snort IDS Rule Creation
+
+## 🎯 Goal
+Understand how signature-based detection works by creating and testing simple Snort rules.
+
+---
+
+# 1. Example Rules I Created
+
+### Detect HTTP GET requests
+
+alert tcp any any -> any 80 (msg:"HTTP GET detected"; content:"GET"; sid:10001;)
+
+### Detect ICMP ping
+
+alert icmp any any -> any any (msg:"Ping detected"; sid:10002;)
+
+### Detect suspicious user-agent strings
+
+alert tcp any any -> any 80 (msg:"Suspicious User-Agent"; content:"curl"; http_header; sid:10003;)
+
+
+---
+
+# 2. How I Tested Them
+- Made HTTP requests  
+- Sent ping traffic  
+- Generated custom user-agent requests using curl  
+
+Snort logged the alerts with the rule message.
+
+---
+
+# 3. What I Learned
+- Basic IDS rule structure  
+- How signature detection differs from behavioural detection  
+- How false positives happen  
+- How attackers try to evade signatures  
+
+---
+
+# 4. SOC Relevance
+Understanding IDS logic helps analyze:
+- SIEM alerts  
+- IPS blocks  
+- Correlation rules  
+- Detection evasion attempts  
