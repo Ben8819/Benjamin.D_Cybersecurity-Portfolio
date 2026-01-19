@@ -62,7 +62,7 @@ Implemented concepts include:
 - Logging of permitted and blocked traffic
 - IDS/IPS integration points
 
-Details are documented in: Firewall and Network security/ 
+Details are documented in: [Firewall and Network security/](Firewall_And_Network_Security)
 
 ---
 
