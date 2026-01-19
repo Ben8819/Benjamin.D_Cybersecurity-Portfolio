@@ -26,7 +26,7 @@ pfSense connects all network segments and routes traffic between them.
 - **Function:** Outbound connectivity for internal networks via NAT
 - **Security posture:** No inbound access allowed
 
----
+--
 
 ### LAN Interface (Management / User Network)
 - **Subnet:** `192.168.1.0/24`
@@ -40,7 +40,7 @@ It is the **only network** allowed to:
 - Perform administrative actions across the lab
 - Manage security tooling (IDS, SIEM)
 
----
+--
 
 ### SERVER_LAN Interface (Security / Infrastructure Network)
 - **Subnet:** `10.0.3.0/24`
@@ -53,7 +53,7 @@ This interface hosts critical security infrastructure:
 
 It is treated as a **protected zone**, accessible only through explicit firewall rules.
 
----
+--
 
 ### KALI_LAN Interface (Attacker Network)
 - **Subnet:** `10.0.2.0/24`
@@ -66,8 +66,8 @@ By default:
 - It has no access to internal networks
 - It is fully isolated except when temporary rules are enabled for attack simulations
 
-See below screenshot:
---> pfsense_interfaces
+See below screenshot:<br>
+[pfsense_interfaces]
 
 ---
 
@@ -116,7 +116,7 @@ Denied:
 - Unrestricted lateral movement
 - Unauthorized SSH access
 
----
+--
 
 ### KALI_LAN → Internal Networks
 Denied by default.
@@ -127,7 +127,7 @@ Temporary rules may be enabled to:
 
 These rules are explicitly documented and disabled after testing.
 
----
+--
 
 ### SERVER_LAN → LAN
 Restricted:
