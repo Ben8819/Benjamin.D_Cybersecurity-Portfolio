@@ -32,7 +32,7 @@ All internal traffic is routed through pfSense, allowing centralized visibility 
 
 A full network topology diagram is provided in this directory for reference.
 
---> Topology_diagram
+[Topology_diagram](Screenshots/Topology_diagram.png)
 
 ---
 
