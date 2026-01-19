@@ -30,8 +30,8 @@ Each interface enforces policies based on the **trust level** of the network it 
 Firewall aliases were used to group networks, hosts, and ports in order to keep rules readable, scalable, and easier to maintain as the lab evolved.
 
 See below screenshots:<br>
-[firewall_ip_aliases]<br>
-[firewall_port_aliases]
+[firewall_ip_aliases](Screenshots/firewall_ip_aliases.png)<br>
+[firewall_port_aliases](Screenshots/firewall_port_aliases.png)
 
 ---
 
@@ -60,7 +60,7 @@ Only the administrative workstation should be able to manage infrastructure comp
 Other LAN hosts behave as standard user endpoints.
 
 See below screenshot:<br>
-[firewall_lan_rules]
+[firewall_lan_rules](Screenshots/firewall_lan_rules.png)
 
 ---
 
@@ -86,7 +86,7 @@ This interface hosts critical security infrastructure and is treated as a **rest
 Security tooling must be accessible for administration but protected from unnecessary exposure.
 
 See below screenshot:<br>
-[firewall_server_lan_rules]
+[firewall_server_lan_rules](Screenshots/firewall_server_lan_rules.png)
 
 ---
 
@@ -102,14 +102,13 @@ This interface represents an **untrusted or compromised internal segment**.
 - Enabled only during attack simulation exercises
 - Disabled immediately after testing
 
-
 The attacker network is intentionally isolated to:
 - Prevent accidental damage
 - Avoid contaminating normal traffic
 - Maintain clean detection baselines
 
 See below screenshot:<br>
-[firewall_kali_lan_rules]
+[firewall_kali_lan_rules](Screenshots/firewall_kali_lan_rules.png)
 
 ---
 
