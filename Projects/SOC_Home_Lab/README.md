@@ -31,8 +31,8 @@ This SOC Home Lab demonstrates:
 <br>
 
 ### 📄 Root Files
-- Read Me — Project overview, goals
-- How to Navigate this project — Step-by-step guide to reading this repository
+- Read Me — Project overview, goals <--- You are here
+- [How to Navigate this project](How_To_Navigate_This_Project.md) — Step-by-step guide to reading this repository
 
 ---
 
@@ -47,7 +47,7 @@ Key design principles:
 - Dedicated IDS sensor for traffic inspection
 - Realistic attacker and victim simulation
 
-The full architecture, network diagrams, and IP plans are documented in: Lab architecture/
+The full architecture, network diagrams, and IP plans are documented in: [Lab architecture/](Lab_Architecture)
 
 ---
 
