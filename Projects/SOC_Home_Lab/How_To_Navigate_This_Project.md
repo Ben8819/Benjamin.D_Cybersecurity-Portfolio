@@ -8,7 +8,7 @@ If you are a recruiter or hiring manager, this short guide explains how to revie
 
 ### 1. Start Here – Project Context
 
-Begin with the **README** at the root of the project folder.
+Begin with the [**README**](README.md) at the root of the project folder.
 
 It provides:
 - A high-level overview of the lab goals
@@ -23,7 +23,7 @@ This sets the context for everything that follows.
 
 Next, review the architecture-related documentation:
 
-- **Architecture Overview**
+- [**Architecture Overview**](Lab_Architecture/Architecture_Overview.md)
   - Network segmentation
   - pfSense firewall placement
   - Dedicated IDS and SIEM components
