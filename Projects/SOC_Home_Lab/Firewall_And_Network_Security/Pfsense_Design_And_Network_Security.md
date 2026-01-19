@@ -67,7 +67,7 @@ By default:
 - It is fully isolated except when temporary rules are enabled for attack simulations
 
 See below screenshot:<br>
-[pfsense_interfaces]
+[pfsense_interfaces](Screenshots/pfsense_interfaces.png)
 
 ---
 
