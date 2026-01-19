@@ -27,7 +27,7 @@ Next, review the architecture-related documentation:
   - Network segmentation
   - pfSense firewall placement
   - Dedicated IDS and SIEM components
-- **pfSense Design**
+- [**pfSense Design**](Firewall_And_Network_Security/Pfsense_Design_And_Network_Security.md) and [**Firewall Rules**](Firewall_And_Network_Security/Firewall_Rules_Design.md)
   - Firewall role
   - Interface separation
   - Management vs monitored traffic
