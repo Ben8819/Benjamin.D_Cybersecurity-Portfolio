@@ -28,8 +28,8 @@ Suricata was enabled on multiple interfaces, including:
 At this stage, blocking mode was initially disabled (IDS-only), then later tested using **Inline IPS mode**.
 
 See below Screenshots:<br>
- [Inline_mode]<br>
- [IDS_mode]
+ [Inline_mode](Screenshots/Inline_mode.png)<br>
+ [IDS_mode](Screenshots/IDS_mode.png)
 
 ---
 
@@ -66,8 +66,8 @@ Alerts were categorized as:
 This confirmed correct rule loading, packet inspection, and classification behavior.
 
 See below Screenshots:<br>
-[Nmap_scan] <br>
-[Alert_01]
+[Nmap_scan](Screenshots/Nmap_scan.png)<br>
+[Alert_01](Screenshots/Alert_01.png)
 
 ---
 
@@ -139,7 +139,7 @@ Two internal interfaces were bridged on pfSense to allow normal traffic flow bet
 This design cleanly separates **traffic inspection** from **management operations**, preventing monitoring traffic from interfering with administrative access or SIEM connectivity.
 
 See below screenshot:<br>
-[pfsense_bridges]<br>
+[pfsense_bridges](Screenshots/pfsense_bridges.png)<br>
 
 ---
 
