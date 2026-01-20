@@ -35,7 +35,7 @@ Each panel answers a **single operational question** an analyst would ask at the
 
 ---
 
-Note: The SPL queries used to build and validate this dashboard panels are documented as screenshots in the dedicated [SPL/] folder.
+Note: The SPL queries used to build and validate this dashboard panels are documented as screenshots in the dedicated [SPL/](Screenshots/SOC_Overview_Dashboard/SPL) folder.
 
 ## Dashboard Panels
 
@@ -57,7 +57,7 @@ Provides immediate confirmation that:
 This metric establishes the **baseline activity level**.
 
 See below screenshot:<br>
-[total_events_all_source]
+[total_events_all_source](Screenshots/SOC_Overview_Dashboard/total_events_all_source.png)
 
 ---
 
@@ -79,7 +79,7 @@ Helps analysts:
 A healthy IDS produces **far more benign traffic than alerts**, while still detecting meaningful events.
 
 See below screenshot:<br>
-[suricata_signal_vs_noise]
+[suricata_signal_vs_noise](Screenshots/SOC_Overview_Dashboard/suricata_signal_vs_noise.png)
 
 ---
 
@@ -101,7 +101,7 @@ Indicates:
 This panel helps detect misconfigured rules or unexpected drops.
 
 See below screenshot:<br>
-[firewall_logs_pfsense]
+[firewall_logs_pfsense](Screenshots/SOC_Overview_Dashboard/firewall_logs_pfsense.png)
 
 ---
 
@@ -123,7 +123,7 @@ Used to:
 This panel is a **high-level IDS health indicator**.
 
 See below screenshot:<br>
-[total_ids_alerts]
+[total_ids_alerts](Screenshots/SOC_Overview_Dashboard/total_ids_alerts.png)
 
 ---
 
@@ -145,7 +145,7 @@ Helps analysts:
 High volume does not imply malicious behavior but **warrants context**.
 
 See below screenshot:<br>
-[Top_host_by_event_volume]
+[Top_host_by_event_volume](Screenshots/SOC_Overview_Dashboard/Top_host_by_event_volume.png)
 
 ---
 
