@@ -60,14 +60,14 @@ This shows how detection was combined with prevention and risk reduction.
 
 The dashboards represent how a SOC analyst would *consume* security data:
 
-- **Authentication Monitoring Dashboard**
+- [**Authentication Monitoring Dashboard**](Dashboards/Authentication_Monitoring_Dashboard.md)
   - Login activity
   - Failure patterns
   - Suspicious authentication behavior
-- **SOC Overview Dashboard**
+- [**SOC Overview Dashboard**](Dashboards/SOC_Overview_Dashboard.md)
   - High-level visibility across all data sources
   - Firewall, IDS, and host log correlation
-- **IDS / Network Threats Dashboard**
+- [**IDS / Network Threats Dashboard**](Dashboards/IDS_Network_Threat_Dashboard.md)
   - Suricata alerts
   - Noise vs suspicious classification
   - Focus on actionable signals
