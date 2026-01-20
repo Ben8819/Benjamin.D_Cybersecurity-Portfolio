@@ -59,8 +59,8 @@ This response is intentionally crafted to trigger IDS rules related to suspiciou
 - Multiple events were generated due to repeated response patterns
 
 See below screenshots:<br>
-[testmynids_cli]<br>
-[testmynids_alerts]
+[testmynids_cli](Screenshots/Testmynids/testmynids_cli.png)<br>
+[testmynids_alerts](Screenshots/Testmynids/testmynids_alerts.png)
 
 ---
 
@@ -70,7 +70,7 @@ See below screenshots:<br>
 
 Suricata generated alerts with signatures similar to:
 
-- GPL ATTACK_RESP ONSE id check returned root
+`GPL ATTACK_RESP ONSE id check returned root`
 
 These alerts indicate detection of abnormal or potentially malicious response content.
 
