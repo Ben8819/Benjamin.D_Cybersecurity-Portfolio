@@ -87,7 +87,7 @@ Detection is intentionally designed as a **layered process**:
 This section focuses on **how and why detection decisions were made**, not just tool installation.  
 It highlights the challenges of alert noise, rule tuning, and the trade-offs between inline IPS and passive IDS monitoring.
 
-Documented in: Detection and Monitoring/
+Documented in: [Detection and Monitoring/](Detection_And_Monitoring)
 
 ---
 
