@@ -33,8 +33,8 @@ These sources provide complementary perspectives:
 - Perimeter enforcement context
 
 See below screenshots:<br>
-[eve_json]<br>
-[pfsense_syslog]
+[eve_json](Screenshots/eve_json.png)<br>
+[pfsense_syslog](Screenshots/pfsense_syslog.png)
 
 ---
 
@@ -56,7 +56,7 @@ Forwarders are responsible for:
 - Minimizing performance impact on endpoints
 
 See below screenshot:<br>
-[splunk_listening_port]
+[splunk_listening_port](Screenshots/splunk_listening_port.png)
 
 ---
 
@@ -77,7 +77,7 @@ Separating data into indexes allows:
 Index naming reflects the **source and purpose** of the data rather than arbitrary grouping.
 
 See below screenshot:<br>
-[index_list]
+[index_list](Screenshots/index_list.png)
 
 
 ---
@@ -104,7 +104,7 @@ Normalization is kept intentionally simple to:
 - Allow manual analyst interpretation
 
 See below screenshot:<br>
-[source_type]
+[source_type](Screenshots/source_type.png)
 
 ---
 
@@ -138,7 +138,7 @@ Dashboards were built to provide:
 
 Each dashboard focuses on a specific operational question rather than raw data volume.
 
-Detailed dashboard descriptions are provided in the dedicated `Dashboards/` section of this project.
+Detailed dashboard descriptions are provided in the dedicated [`Dashboards/`](SOC_Home_Lab/Dashboards) section of this project.
 
 ---
 
