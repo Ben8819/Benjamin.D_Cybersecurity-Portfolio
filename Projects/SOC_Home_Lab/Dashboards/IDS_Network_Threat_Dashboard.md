@@ -32,8 +32,8 @@ Before refinement, the environment generated a large volume of **benign Suricata
 - Protocol-level anomalies caused by normal traffic
 
 See below screenshots:<br>
-[Alerts_Before_Refinement]<br>
-[Alerts_Before_Refinement_02]
+[Alerts_Before_Refinement](Screenshots/IDS_Network_Threat_Dashboard/Alerts_Before_Refinement.png)<br>
+[Alerts_Before_Refinement_02](Screenshots/IDS_Network_Threat_Dashboard/Alerts_Before_Refinement_02.png)
 
 The following refinement actions were applied:
 
@@ -47,7 +47,7 @@ This approach mirrors real-world SOC practices, where reducing alert fatigue is 
 
 ---
 
-The SPL queries used to build and validate this dashboard panels are documented as screenshots in the dedicated [SPL/] folder.
+The SPL queries used to build and validate this dashboard panels are documented as screenshots in the dedicated [SPL/](Screenshots/IDS_Network_Threat_Dashboard/SPL) folder.
 
 ## Dashboard Panels
 
@@ -69,7 +69,7 @@ The SPL queries used to build and validate this dashboard panels are documented 
 - No confirmed malicious activity detected during the selected timeframe
 
 See below screenshot:<br>
-[suspicious_alert_over_time]
+[suspicious_alert_over_time](Screenshots/IDS_Network_Threat_Dashboard/suspicious_alert_over_time.png)
 
 ---
 
@@ -90,7 +90,7 @@ See below screenshot:<br>
 - Confirms successful suppression of false positives
 
 See below screenshot:<br>
-[alert_classification_noise_vs_suspicious]
+[alert_classification_noise_vs_suspicious](Screenshots/IDS_Network_Threat_Dashboard/alert_classification_noise_vs_suspicious.png)
 
 ---
 
@@ -115,7 +115,7 @@ See below screenshot:<br>
 - Expected behavior when no suspicious activity is detected
 
 See below screenshot:<br>
-[recent_suspicious_alert]
+[recent_suspicious_alert](Screenshots/IDS_Network_Threat_Dashboard/recent_suspicious_alert.png)
 
 ---
 
@@ -134,7 +134,7 @@ See below screenshot:<br>
 - Indicates absence of recurring malicious signatures
 
 See below screenshot:<br>
-[top_alert_signature_suspicious]
+[top_alert_signature_suspicious](Screenshots/IDS_Network_Threat_Dashboard/top_alert_signature_suspicious.png)
 
 ---
 
