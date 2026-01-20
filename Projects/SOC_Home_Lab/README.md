@@ -125,7 +125,7 @@ These actions triggered IDS alerts that were:
 
 This section demonstrates the ability to **generate, detect, and interpret security events**, not just deploy tools.
 
-Documented in: Attack Simulation & Detection/ 
+Documented in: [Attack Simulation & Detection/](Attack_Simulation_And_Detection)
 
 ---
 
