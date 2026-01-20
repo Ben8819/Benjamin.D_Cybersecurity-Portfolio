@@ -76,9 +76,9 @@ Identify live hosts on the target network:
 - Low-noise but clear reconnaissance pattern
 
 See below screenshots:<br>
- [Nmap_Host_Discovery]<br>
- [Recent_suspicious_alert_scan]<br>
- [Suspicious_over_time_scan]
+ [Nmap_Host_Discovery](Screenshots/Scenario_01/Nmap_Host_Discovery.png)<br>
+ [Recent_suspicious_alert_scan](Screenshots/Scenario_01/Recent_suspicious_alert_scan.png)<br>
+ [Suspicious_over_time_scan](Screenshots/Scenario_01/Suspicious_over_time_scan.png)
 
  --
 
@@ -107,14 +107,14 @@ Perform a classic SYN scan to identify open ports:
 In contrast to the earlier baseline where all alerts were classified as benign sensor noise, this scenario demonstrates a successful shift to actionable detection: the Nmap reconnaissance traffic is now correctly flagged as suspicious, validating both the tuning effort and the effectiveness of the detection pipeline.
   
 See below screenshots:<br>
- [Nmap_synscan]<br>
- [Recent_suspicious_alert_synscan]<br>
- [Top_Alert_suspicious_only_after_scan]<br>
- [Noise_vs_Suspicious_after_scan]
+ [Nmap_synscan](Screenshots/Scenario_01/Nmap_synscan.png)<br>
+ [Recent_suspicious_alert_synscan](Screenshots/Scenario_01/Recent_suspicious_alert_synscan.png)<br>
+ [Top_Alert_suspicious_only_after_scan](Screenshots/Scenario_01/Top_Alert_suspicious_only_after_scan.png)<br>
+ [Noise_vs_Suspicious_after_scan](Screenshots/Scenario_01/Noise_vs_Suspicious_after_scan.png)
 
 Search in Splunk:<br>
- [Splunk_Search_Suricata_Events]<br>
- [Splunk_Search_Scan_Related_Signatures]
+ [Splunk_Search_Suricata_Events](Screenshots/Scenario_01/Splunk_Search_Suricata_Events.png)<br>
+ [Splunk_Search_Scan_Related_Signatures](Screenshots/Scenario_01/Splunk_Search_Scan_Related_Signatures.png)
  
 ----
 
@@ -170,7 +170,7 @@ Password authentication was intentionally allowed temporarily to simulate a comm
 Create a small password list (use lab-only demo passwords)
 
 See below screenshot:<br>
-[Hydra_attack_01_password_list]
+[Hydra_attack_01_password_list](Screenshots/Scenario_02/Attack_01/Hydra_attack_01_password_list.png)
 
 --
 
@@ -192,8 +192,8 @@ MODULE — the protocol module (e.g., http-post-form for typical web forms)
 "MODULE_PARAMS" — module-specific parameters: the path to the form, names of username/password fields, and a failure condition that tells Hydra when to continue vs stop.
 
 See below screenshots:<br>
- [Hydra_attack_01]<br>
- [Hydra_attack_01_result]
+ [Hydra_attack_01](Screenshots/Scenario_02/Attack_01/Hydra_attack_01.png)<br>
+ [Hydra_attack_01_result](Screenshots/Scenario_02/Attack_01/Hydra_attack_01_result.png)
  
 ---
 
@@ -204,7 +204,7 @@ See below screenshots:<br>
 - Clear deviation from normal administrative login patterns
 
 See below screenshots:<br>
-[admin_ws_ssh_brute_force_failed_attempt_auth_log]
+[admin_ws_ssh_brute_force_failed_attempt_auth_log](Screenshots/Scenario_02/Attack_01/admin_ws_ssh_brute_force_failed_attempt_auth_log.png)
 
 ---
 
@@ -218,13 +218,13 @@ See below screenshots:<br>
   - IDS Network Threat Dashboard
   
 See below screenshots:<br>
- [Splunk_auth_failure_over_time_after_hydra_attack]<br>
- [Splunk_ids_alert_after_hydra_attack]<br>
- [Splunk_suspicious_alert_over_time_after_hydra_attack]
+ [splunk_auth_failure_over_time_after_hydra_attack](Screenshots/Scenario_02/Attack_01/splunk_auth_failure_over_time_after_hydra_attack.png)<br>
+ [splunk_ids_alert_after_hydra_attack](Screenshots/Scenario_02/Attack_01/splunk_ids_alert_after_hydra_attack.png)<br>
+ [splunk_suspicious_alert_over_time_after_hydra_attack](Screenshots/Scenario_02/Attack_01/splunk_suspicious_alert_over_time_after_hydra_attack.png)
  
 Confirmed also via Network and Host telemetry search:<br>
- [Splunk_search_after_hydra_attack]<br>
- [Splunk_search_02_after_hydra_attack]
+ [Splunk_search_after_hydra_attack](Screenshots/Scenario_02/Attack_01/Splunk_search_after_hydra_attack.png)<br>
+ [Splunk_search_02_after_hydra_attack](Screenshots/Scenario_02/Attack_01/Splunk_search_02_after_hydra_attack.png)
  
 ---
 
@@ -263,12 +263,12 @@ The target system was intentionally temporarily configured with weak credentials
 Append the existing password list with the correct password of the target machine
 
 See below screenshot:<br>
-[password_list_appended]
- 
+[password_list_appended](Screenshots/Scenario_02/Attack_02/password_list_appended.png)
+
 ### Step 2 - Launch the Brute-Force Simulation with Hydra
 
 See below screenshot:<br>
-[hydra_attack_02]
+[hydra_attack_02](Screenshots/Scenario_02/Attack_02/hydra_attack_02.png)
 
 ---
 
@@ -285,7 +285,7 @@ See below screenshot:<br>
 - Sustained abnormal access patterns from a single source IP
 
 See below screenshot:<br>
-[successfull_bruteforce]
+[successfull_bruteforce](Screenshots/Scenario_02/Attack_02/successfull_bruteforce.png)
 
 ---
 
@@ -305,7 +305,7 @@ These logs were indexed into Splunk and correlated by time and source.
 - IDS visibility confirmed repeated access attempts preceding compromise
 
 See below screenshot:<br>
-[ssh_alerts]
+[ssh_alerts](Screenshots/Scenario_02/Attack_02/ssh_alerts.png)
 
 ---
 
@@ -322,9 +322,9 @@ Relevant events appeared across:
 - **IDS Network Threat Dashboard**
 
 See below screenshots:<br>
-[auth_failure_over_time_second_attack]<br>
-[suspicious_alert_raising_over_time]<br>
-[alert_level_2_increase]
+[auth_failure_over_time_second_attack](Screenshots/Scenario_02/Attack_02/auth_failure_over_time_second_attack.png)<br>
+[suspicious_alert_raising_over_time](Screenshots/Scenario_02/Attack_02/suspicious_alert_raising_over_time.png)<br>
+[alert_level_2_increase](Screenshots/Scenario_02/Attack_02/alert_level_2_increase.png)
 
 ---
 
