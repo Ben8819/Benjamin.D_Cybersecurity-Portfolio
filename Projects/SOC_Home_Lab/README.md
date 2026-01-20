@@ -105,7 +105,7 @@ Custom dashboards include:
 - Authentication activity monitoring
 - Suspicious activity timelines
 
-Dashboards are documented with explanations and screenshots in: Dashboards/ 
+Dashboards are documented with explanations and screenshots in: [Dashboards/](Dashboards)
 
 ---
 
