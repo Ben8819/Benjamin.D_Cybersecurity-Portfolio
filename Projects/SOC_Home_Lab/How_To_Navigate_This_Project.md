@@ -40,10 +40,12 @@ These sections explain *how traffic flows* and *where visibility is enforced*.
 
 The core defensive components are documented in dedicated sections:
 
-- **Suricata IDS**
-  - Deployment evolution (pfSense package → dedicated IDS host)
-  - Traffic duplication via pfSense bridge
+- [**Suricata IDS**](Detection_And_Monitoring/Intrusion_Detection_System_Suricata.md)
+  - Deployment evolution of Suricata, configuration [deep dive](Detection_And_Monitoring/Suricata_IDS_Configuration_Deep_Dive.md)
+  - [Log Ingestion and Data Flow](Detection_And_Monitoring/Log_Ingestion_And_Data_Flow.md)
   - Rule strategy and noise reduction
+- **Splunk**
+  - [Deployment evolution of Splunk](Detection_And_Monitoring/Security_Information_And_Event_Management_Splunk.md)
 - **Lab Hardening**
   - Network segmentation
   - Firewall restrictions
