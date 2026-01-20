@@ -41,7 +41,7 @@ These sections explain *how traffic flows* and *where visibility is enforced*.
 The core defensive components are documented in dedicated sections:
 
 - [**Suricata IDS**](Detection_And_Monitoring/Intrusion_Detection_System_Suricata.md)
-  - Deployment evolution of Suricata, configuration [deep dive](Detection_And_Monitoring/Suricata_IDS_Configuration_Deep_Dive.md)
+  - Deployment evolution of Suricata, [configuration deep dive](Detection_And_Monitoring/Suricata_IDS_Configuration_Deep_Dive.md)
   - [Log Ingestion and Data Flow](Detection_And_Monitoring/Log_Ingestion_And_Data_Flow.md)
   - Rule strategy and noise reduction
 - **Splunk**
@@ -80,7 +80,7 @@ Screenshots are referenced directly in each dashboard document for visual contex
 
 To demonstrate analysis skills beyond dashboards, review:
 
-- **Attack Simulation and Detection**
+- [**Attack Simulation and Detection**](Attack_Simulation_And_Detection/Attack_Simulation_And_Detection.md)
   - Controlled scans and attack-like activity
   - How alerts were generated and observed
 - **SOC Investigation Workflow**
