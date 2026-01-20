@@ -10,7 +10,6 @@ Suricata was explicitly configured with the internal networks it should treat as
 
 ### Configuration (example)
 
-vars:
   address-groups:<br>
     HOME_NET: "[192.168.1.0/24,10.0.3.0/24]"<br>
     EXTERNAL_NET: "!$HOME_NET"
@@ -28,7 +27,7 @@ What this does:
 - This allows signatures to correctly detect “external → internal” patterns, which are typically higher priority.
 
 See below screenshot:<br>
-[home_net_config]
+[home_net_config](Screenshots/home_net_config.png)
 
 ---
 
@@ -48,6 +47,7 @@ rule-files:
   - suricata.rules
   - local.rules
     
+--
 
 ### Why this approach
 
@@ -62,7 +62,7 @@ local.rules
 - Supports learning and validation without polluting the full ruleset
 
 See below screenshot:<br>
-[rules_path_config]
+[rules_path_config](Screenshots/rules_path_config.png)
 
 ---
 
@@ -74,20 +74,20 @@ traffic → Suricata inspection → alert generation → (optional) SIEM ingesti
 ### Example local rules
 
 #### Detect ICMP ping
-alert icmp any any -> any any (msg:"ICMP Test Alert"; sid:1000001; rev:1;)
+`alert icmp any any -> any any (msg:"ICMP Test Alert"; sid:1000001; rev:1;)`
 
 #### Detect HTTP GET requests
-alert tcp any any -> any 80 (msg:"HTTP GET Detected"; content:"GET"; sid:1000002; rev:1;)
+`alert tcp any any -> any 80 (msg:"HTTP GET Detected"; content:"GET"; sid:1000002; rev:1;)`
 
 #### Detect suspicious User-Agent strings (curl)
-alert tcp any any -> any 80 (msg:"Suspicious User-Agent"; content:"curl"; http_header; sid:1000003; rev:1;)
+`alert tcp any any -> any 80 (msg:"Suspicious User-Agent"; content:"curl"; http_header; sid:1000003; rev:1;)`
 
-What this validates
+### What this validates
 
 - ICMP rule confirms basic packet visibility.
-
+  
 - HTTP GET rule confirms payload inspection works.
-
+  
 - User-Agent rule confirms Suricata can parse HTTP headers and match on them.
 
 ---
@@ -97,21 +97,21 @@ What this validates
 Before starting Suricata in monitoring mode, the configuration was validated to avoid silent failures.
 
 See below screenshots:<br>
-[suricata_icmp_test]
+[suricata_icmp_test](Screenshots/suricata_icmp_test.png)
 
 ### Validation command
 
-sudo suricata -T -c /etc/suricata/suricata.yaml
+`sudo suricata -T -c /etc/suricata/suricata.yaml`
 
 See below screenshot:<br>
-[suricata_config_test]
+[suricata_config_test](Screenshots/suricata_config_test.png)
 
 ### Expected result
 
 - Config loads successfully
-
+  
 - Rules load successfully
-
+  
 - Suricata exits cleanly after the test
 
 This is a standard operational practice in real environments before deploying changes.
@@ -125,18 +125,18 @@ Suricata used AF_PACKET for high-performance capture on Linux.
 ### Configuration (example)
 
 af-packet:
-  - interface: ens5
+  - interface: ens5<br>
     threads: auto
 	
 See below screenshot:<br>
-[suricata_config_interface]
+[suricata_config_interface](Screenshots/suricata_config_interface.png)
 
 ### Why AF_PACKET
 
 - Efficient for mirrored/SPAN traffic capture
-
+  
 - Supports multi-threading (threads: auto)
-
+  
 - Common in IDS deployments where traffic volume can spike
 
 ---
@@ -148,11 +148,11 @@ To reduce sensor noise and avoid self-generated traffic causing alerts, a BPF fi
 ### Configuration (example)
 
 af-packet:
-  - interface: ens5
+  - interface: ens5<br>
     bpf-filter: "not host 10.0.3.20"
 	
 See below screenshot:<br>
-[suricata_config_interface_filtering]
+[suricata_config_interface_filtering](Screenshots/suricata_config_interface_filtering.png)
 
 ### What this does
 
