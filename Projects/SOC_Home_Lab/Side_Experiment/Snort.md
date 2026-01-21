@@ -25,7 +25,7 @@ Snort was configured with internal network variables aligned with the lab segmen
 All other traffic was considered external (`EXTERNAL_NET any`). This made it easier to reason about what should be treated as “internal” vs “external” during testing.
 
 See below screenshot:<br>
-[Network_scope_definition]
+[Network_scope_definition](Screenshots/Snort/Network_scope_definition.png)
 
 ---
 
@@ -45,7 +45,7 @@ A rule that detects HTTP headers containing the string `curl`, demonstrating how
 These rules were intentionally straightforward so the signal would be obvious during testing.
 
 See below screenshot:<br>
-[snort_local_rules]
+[snort_local_rules](Screenshots/Snort/snort_local_rules.png)
 
 ---
 
@@ -66,7 +66,7 @@ As soon as test traffic was generated, Snort produced the expected alerts, confi
 - Alerts were firing in real time as expected
 
 See below screenshot:<br>
-[icmp_test]
+[icmp_test](Screenshots/Snort/icmp_test.png)
 
 ---
 
