@@ -121,7 +121,7 @@ Examples include:
 These actions triggered IDS alerts that were:
 - Logged
 - Correlated
-- Investigated using Splunk and pfSense
+- Investigated using Splunk
 
 This section demonstrates the ability to **generate, detect, and interpret security events**, not just deploy tools.
 
@@ -175,7 +175,7 @@ Some tools and configurations were explored outside the core SOC workflow to dee
 
 These experiments are intentionally separated from the main lab to keep the core project clean and focused.
 
-Documented in: Side experiment/
+Documented in: [Side experiment/](Side_Experiment)
 
 ---
 
@@ -189,10 +189,8 @@ This section documents:
 - Design trade-offs
 - Tool constraints
 - What would be improved in a production environment
-- What would be done differently with more resources or time
+- What would be done differently with more resources
 
-This section is intentional and reflects professional self-awareness.
-
-Documented in: Lesson learned and limitation/
+Documented in: [Lesson learned and limitation/](Lessons_Learned_And_Limitations)
 
 ---
