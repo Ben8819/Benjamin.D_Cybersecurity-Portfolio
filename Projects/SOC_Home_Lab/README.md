@@ -143,7 +143,7 @@ Covered topics:
 
 Rather than isolated alerts, the focus is on **analyst reasoning** and repeatable investigation steps.
 
-Documented in: SOC Investigation Workflow/ 
+Documented in: [SOC Investigation Workflow/](SOC_Investigation_Workflow)
 
 ---
 
@@ -161,7 +161,7 @@ Examples include:
 
 This reflects a realistic environment where security improves iteratively, not perfectly from day one.
 
-Documented in: Lab Hardening/ 
+Documented in: [Lab Hardening/](Lab_Hardening)
 
 ---
 
