@@ -44,9 +44,9 @@ The core defensive components are documented in dedicated sections:
   - Deployment evolution of Suricata, [configuration deep dive](Detection_And_Monitoring/Suricata_IDS_Configuration_Deep_Dive.md)
   - [Log Ingestion and Data Flow](Detection_And_Monitoring/Log_Ingestion_And_Data_Flow.md)
   - Rule strategy and noise reduction
-- **Splunk**
-  - [Deployment evolution of Splunk](Detection_And_Monitoring/Security_Information_And_Event_Management_Splunk.md)
-- **Lab Hardening**
+- [**Splunk**](Detection_And_Monitoring/Security_Information_And_Event_Management_Splunk.md)
+  - Deployment evolution of Splunk
+- [**Lab Hardening**](Lab_Hardening/Lab_Hardening_Strategy.md)
   - Network segmentation
   - Firewall restrictions
   - Host-level hardening
@@ -83,7 +83,7 @@ To demonstrate analysis skills beyond dashboards, review:
 - [**Attack Simulation and Detection**](Attack_Simulation_And_Detection/Attack_Simulation_And_Detection.md)
   - Controlled scans and attack-like activity
   - How alerts were generated and observed
-- **SOC Investigation Workflow**
+- [**SOC Investigation Workflow**](SOC_Investigation_Workflow/SOC_Investigation_Workflow.md)
   - Triage methodology
   - Log correlation
   - Noise handling
