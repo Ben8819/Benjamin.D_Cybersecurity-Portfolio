@@ -1,4 +1,4 @@
-# Suricata IDS – Configuration Deep Dive
+# 👁️ Suricata IDS – Configuration Deep Dive
 
 This section adds extra technical detail about the Suricata IDS configuration used in the lab. It focuses on the reasoning behind key settings (network variables, rule loading, validation, capture mode, and BPF filtering)
 
