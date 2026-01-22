@@ -97,7 +97,7 @@ Together, these files show how alerts are *interpreted*, not just generated.
 
 For evidence of practical, command-line experience, see:
 
-- [**CLI Reference**](Tools_And_Cheat_Sheets/CLI_References/)
+- [**CLI Reference**](../../Tools_And_Cheat_Sheets/CLI_References/)
   - Frequently used Linux, networking, IDS, and SIEM commands
   - Commands selected to reflect real SOC workflows
   - No screenshots required — focused on operational knowledge
@@ -127,12 +127,12 @@ It is not designed to showcase exploitation, but rather:
 
 If you are short on time, the recommended order is:
 
-1. Main README (project overview)
-2. SOC Overview Dashboard
-3. Authentication Dashboard
-4. IDS / Network Threats Dashboard
-5. SOC Investigation Workflow
-6. Lab Hardening Strategy
+1. [README](README.md) (project overview)
+2. [SOC Overview Dashboard](Dashboards/SOC_Overview_Dashboard.md)
+3. [Authentication Dashboard](Dashboards/Authentication_Monitoring_Dashboard.md)
+4. [IDS / Network Threats Dashboard](Dashboards/IDS_Network_Threat_Dashboard.md)
+5. [SOC Investigation Workflow](SOC_Investigation_Workflow/SOC_Investigation_Workflow.md)
+6. [Lab Hardening Strategy](Lab_Hardening/Lab_Hardening_Strategy.md)
 
 This provides a complete picture in under 15 minutes.
 
