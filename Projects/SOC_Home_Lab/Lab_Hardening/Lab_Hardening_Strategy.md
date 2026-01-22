@@ -1,4 +1,4 @@
-# Lab Hardening Strategy
+# 🔐 Lab Hardening Strategy
 
 This document describes the hardening measures applied to the SOC home lab environment.  
 The goal was not to create an “unbreakable” system, but to apply **realistic defensive controls** aligned with entry-level SOC and blue team practices.
