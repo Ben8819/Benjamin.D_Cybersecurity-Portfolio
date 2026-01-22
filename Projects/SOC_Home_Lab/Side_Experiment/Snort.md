@@ -1,4 +1,4 @@
-## Snort IDS — Manual Rule Testing and Traffic Validation
+## 🐷 Snort IDS — Manual Rule Testing and Traffic Validation
 
 In addition to the main IDS deployment based on Suricata, I ran a small side experiment with **Snort** to strengthen my understanding of **signature-based IDS detection** at a lower level. This experiment was not integrated into the SIEM pipeline; it was intentionally kept lightweight and focused on learning, rule logic, and real-time validation.
 
