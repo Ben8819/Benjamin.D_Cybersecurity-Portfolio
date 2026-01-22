@@ -1,4 +1,4 @@
-# SOC Overview Dashboard
+# 📊 SOC Overview Dashboard
 
 ## Purpose
 
