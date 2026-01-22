@@ -1,4 +1,4 @@
-# Security Information and Event Management (Splunk)
+# 📊 Security Information and Event Management (Splunk)
 
 ## Purpose of Splunk in the Lab
 
