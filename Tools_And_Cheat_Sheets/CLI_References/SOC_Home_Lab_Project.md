@@ -1,4 +1,4 @@
-# Common Commands Used in the SOC Home Lab Project
+# 📘 Common Commands Used in the SOC Home Lab Project
 
 This document lists commonly used command-line tools and commands executed during the [SOC Home Lab](/Projects/SOC_Home_Lab) project.<br>
 It is intended to demonstrate hands-on familiarity with Linux, networking, IDS tooling, and investigation workflows.
