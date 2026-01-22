@@ -36,7 +36,7 @@ This SOC Home Lab demonstrates:
 
 ---
 
-### 🧱 Lab Architecture
+### 🏗️ Lab Architecture
 Network topology, VM roles, segmentation, and design decisions.
 
 This lab is built around a segmented virtual network in GNS3 protected by pfSense and monitored using Suricata and Splunk.
@@ -51,7 +51,7 @@ The full architecture, network diagrams, and IP plans are documented in: [Lab ar
 
 ---
 
-### 🔥 Firewall and Network Security
+### 🛡️ Firewall and Network Security
 pfSense configuration, firewall rules, network isolation, and traffic control.
 
 Network traffic is controlled and segmented using **pfSense** as the perimeter and internal firewall.
