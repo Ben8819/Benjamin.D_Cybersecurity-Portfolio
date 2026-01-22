@@ -1,4 +1,4 @@
-## 🧠 Lessons Learned & Limitations
+## 📚 Lessons Learned & Limitations
 
 This project intentionally reflects a **realistic learning environment**, including technical challenges, constraints, and trade-offs.  
 Documenting these aspects is essential to demonstrate professional maturity and transparency.
