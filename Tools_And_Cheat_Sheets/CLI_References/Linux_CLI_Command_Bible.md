@@ -1,4 +1,4 @@
-# Linux CLI Command Bible
+# 📜 Linux CLI Command Bible
 
 **Note**
 
