@@ -1,4 +1,4 @@
-# Log Ingestion and Data Flow
+# 🔄 Log Ingestion and Data Flow
 
 ## Purpose of Log Ingestion in the Lab
 
