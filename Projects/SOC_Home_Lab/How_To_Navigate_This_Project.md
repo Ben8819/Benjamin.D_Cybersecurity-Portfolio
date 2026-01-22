@@ -97,7 +97,7 @@ Together, these files show how alerts are *interpreted*, not just generated.
 
 For evidence of practical, command-line experience, see:
 
-- **CLI Reference**
+- [**CLI Reference**](Tools_And_Cheat_Sheets/CLI_References/)
   - Frequently used Linux, networking, IDS, and SIEM commands
   - Commands selected to reflect real SOC workflows
   - No screenshots required — focused on operational knowledge
