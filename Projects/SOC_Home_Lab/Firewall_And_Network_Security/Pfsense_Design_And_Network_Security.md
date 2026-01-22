@@ -1,4 +1,4 @@
-# pfSense Design and Network Security
+# 🛡️ pfSense Design and Network Security
 
 ## Purpose of pfSense in the Lab
 
