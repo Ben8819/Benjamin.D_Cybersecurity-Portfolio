@@ -1,4 +1,4 @@
-# Attack Simulation & Detection Scenarios
+# 🎯 Attack Simulation & Detection Scenarios
 
 ! Disclaimer:<br>
 
@@ -19,7 +19,7 @@ This section documents the **controlled attack simulations** performed against t
 ## How These Scenarios Are Investigated
 
 Each attack scenario documented in this section is analyzed using the structured SOC investigation workflow described in:
-[`SOC_Investigation_Workflow`]
+[SOC_Investigation_Workflow](../SOC_Investigation_Workflow/SOC_Investigation_Workflow.md)
 
 The purpose is not only to generate alerts, but to demonstrate how those alerts are triaged, correlated, and interpreted from a SOC analyst perspective.
 
