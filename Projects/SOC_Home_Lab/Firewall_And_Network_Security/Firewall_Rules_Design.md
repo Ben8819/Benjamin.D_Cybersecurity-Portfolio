@@ -1,4 +1,4 @@
-# Firewall Rules Design
+# 🧱 Firewall Rules Design
 
 ## Purpose of This Section
 
