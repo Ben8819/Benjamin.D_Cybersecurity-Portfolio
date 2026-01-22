@@ -104,10 +104,9 @@ This repository contains my hands-on cybersecurity and IT projects, learning not
 ## 📁 Portfolio Structure Overview
 <br>
 
-### 🚀 Projects
+### 🚀 [Projects](Projects)
 
-#### 🛡️ SOC Home Lab
-**Path:** [`Projects/SOC_Home_Lab/`](Projects/SOC_Home_Lab/)
+#### 🛡️ [SOC Home Lab](Projects/SOC_Home_Lab)
 
 A complete Security Operations Center (SOC) lab including:
 
@@ -117,12 +116,11 @@ A complete Security Operations Center (SOC) lab including:
 - Incident investigation workflows
 - Hardening and lessons learned
 
-➡️ Start here: [`Projects/SOC_Home_Lab/README.md`](Projects/SOC_Home_Lab/README.md)
+➡️ Start here: [`SOC Home Lab Project README`](Projects/SOC_Home_Lab/README.md)
 <br><br>
 
 
-### 📚 Learning
-**Path:** `Learning/`
+### 📚 [Learning](Learning)
 
 Structured notes and fundamentals:
 - Networking
@@ -132,8 +130,7 @@ Structured notes and fundamentals:
 <br>
 
 
-### 🧰 Tools & Cheatsheets
-**Path:** `Tools_&_Cheatsheets/`
+### 🧰 [Tools & Cheatsheets](Tools_And_Cheat_Sheets/CLI_References)
 
 Practical command references for:
 - Nmap
@@ -145,8 +142,7 @@ Practical command references for:
 <br>
 
 
-### 📖 References
-**Path:** `References/`
+### 📖 [Resources & References](Resources_And_References/Resources_And_References.md)
 
 Books, blogs, videos and official documentation used throughout the projects.
 
