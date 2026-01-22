@@ -1,4 +1,4 @@
-# IDS Network Threat Dashboard
+# 📊 IDS Network Threat Dashboard
 
 ## Purpose
 
