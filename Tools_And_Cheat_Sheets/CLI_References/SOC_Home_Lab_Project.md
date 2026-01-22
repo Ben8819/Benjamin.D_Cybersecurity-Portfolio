@@ -5,142 +5,166 @@ It is intended to demonstrate hands-on familiarity with Linux, networking, IDS t
 
 ---
 
-## 1. System & Environment Setup
+## 1 - System & Environment Setup
 
-`hostnamectl`<br>
-`uname -a`<br>
-`lsb_release -a`<br>
-`ip a`<br>
-`ip r`<br>
-`df -h`<br>
-`free -h`
+```bash
+hostnamectl
+uname -a
+lsb_release -a
+ip a
+ip r
+df -h
+free -h
+```
 
 Used to validate system identity, OS version, network configuration, and resource availability.
 
 ---
 
-## 2. Package Installation & Updates
+## 2 - Package Installation & Updates
 
-`apt update`<br>
-`apt upgrade`<br>
-`apt install suricata`<br>
-`apt install splunkforwarder`<br>
-`apt install tcpdump`<br>
-`apt install curl`<br>
-`apt install net-tools`
+```bash
+apt update
+apt upgrade
+apt install suricata
+apt install splunkforwarder
+apt install tcpdump
+apt install curl
+apt install net-tools
+```
 
 Used to install and maintain core security and troubleshooting tools.
 
 ---
 
-## 3. Service Management (systemd)
+## 3 - Service Management (systemd)
 
-`systemctl status suricata`<br>
-`systemctl start suricata`<br>
-`systemctl restart suricata`<br>
-`systemctl enable suricata`<br>
+```bash
+systemctl status suricata
+systemctl start suricata
+systemctl restart suricata
+systemctl enable suricata
 
-`systemctl status splunk`<br>
-`systemctl start splunk`<br>
-`systemctl restart splunk`
+systemctl status splunk
+systemctl start splunk
+systemctl restart splunk
+```
 
 Used to control IDS and SIEM services and verify operational status.
 
 ---
 
-## 4. Log Management & Visibility
+## 4 - Log Management & Visibility
 
-`ls -lah /var/log/suricata/`<br>
-`tail -f /var/log/suricata/eve.json`<br>
-`tail -f /var/log/syslog`<br>
-`journalctl -u suricata`<br>
-`journalctl -xe`
+```bash
+ls -lah /var/log/suricata/
+tail -f /var/log/suricata/eve.json
+tail -f /var/log/syslog
+journalctl -u suricata
+journalctl -xe
+```
 
 Used to validate log generation, ingestion readiness, and troubleshoot issues.
 
 ---
 
-## 5. Network Traffic Capture & Analysis
+## 5 - Network Traffic Capture & Analysis
 
-`ip link`<br>
-`ip link set eth1 promisc on`<br>
-`tcpdump -i eth1`<br>
-`tcpdump -i eth1 -nn -c 100`
+```bash
+ip link
+ip link set eth1 promisc on
+tcpdump -i eth1
+tcpdump -i eth1 -nn -c 100
+```
 
 Used to confirm mirrored/SPAN traffic visibility and packet-level inspection.
 
 ---
 
-## 6. Suricata Rules & Detection Validation
+## 6 - Suricata Rules & Detection Validation
 
-`suricata -T -c /etc/suricata/suricata.yaml`<br>
-`suricata-update`<br>
-`suricata-update list-sources`
+```bash
+suricata -T -c /etc/suricata/suricata.yaml
+suricata-update
+suricata-update list-sources
+```
 
 Used to validate configuration, update rule sets, and ensure detection capability.
 
 ---
 
-## 7. Splunk Configuration & Verification
+## 7 - Splunk Configuration & Verification
 
-`/opt/splunk/bin/splunk status`<br>
-`/opt/splunk/bin/splunk start`<br>
-`/opt/splunk/bin/splunk restart`<br>
-`/opt/splunk/bin/splunk list forward-server`
+```bash
+/opt/splunk/bin/splunk status
+/opt/splunk/bin/splunk start
+/opt/splunk/bin/splunk restart
+/opt/splunk/bin/splunk list forward-server
+```
 
 Used to manage Splunk services and confirm forwarder / indexer connectivity.
 
 ---
 
-## 8. File & Permission Management
+## 8 - File & Permission Management
 
-`ls -l`<br>
-`chmod 644 /var/log/suricata/eve.json`<br>
-`chown splunk:splunk /var/log/suricata/eve.json`
+```bash
+ls -l
+chmod 644 /var/log/suricata/eve.json
+chown splunk:splunk /var/log/suricata/eve.json
+```
 
 Used to ensure proper access rights for log ingestion.
 
 ---
 
-## 9. Connectivity & Traffic Generation (Attack Simulation)
+## 9 - Connectivity & Traffic Generation (Attack Simulation)
 
-`ping`<br>
-`curl http://target`<br>
-`curl -I http://target`<br>
-`nmap -sS -Pn target`<br>
-`nmap -p 80,443 target`
+```bash
+ping
+curl http://target
+curl -I http://target
+nmap -sS -Pn target
+nmap -p 80,443 target
+```
 
 Used to generate detectable network activity and validate alerting.
 
 ---
 
-## 10. Investigation & Validation
+## 10 - Investigation & Validation
 
-`grep "alert" /var/log/suricata/eve.json`<br>
-`jq '.alert.signature' /var/log/suricata/eve.json`<br>
-`ps aux | grep suricata`<br>
-`ss -tulpn`
+```bash
+grep "alert" /var/log/suricata/eve.json
+jq '.alert.signature' /var/log/suricata/eve.json
+ps aux | grep suricata
+ss -tulpn
+```
 
 Used to investigate alerts, validate detections, and confirm service behavior.
 
 ---
 
-## 11. System Troubleshooting
+## 11 - System Troubleshooting
 
-`dmesg`<br>
-`top`<br>
-`htop`<br>
-`vmstat`
+```bash
+dmesg
+top
+htop
+vmstat
+```
 
 Used to diagnose performance or stability issues during lab operation.- Commands listed here were executed in a controlled lab environment
 
 ---
 
-12. Safe Administrative Practices
+## 12 - Safe Administrative Practices
 
-`sudo -l`<br>
-`sudoedit /etc/suricata/suricata.yaml`<br>
-`history`
+```bash
+sudo -l
+sudoedit /etc/suricata/suricata.yaml
+history
+```
 
 Used to track changes and safely modify configuration files.
 
