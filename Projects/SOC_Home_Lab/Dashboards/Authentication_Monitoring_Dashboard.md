@@ -1,4 +1,4 @@
-# Authentication Monitoring Dashboard
+# 📊 Authentication Monitoring Dashboard
 
 ## Objective
 
