@@ -1,4 +1,4 @@
-# Intrusion Detection System (Suricata)
+# 👁️ Intrusion Detection System (Suricata)
 
 ## Purpose of Suricata in the Lab
 
