@@ -1,4 +1,4 @@
-# Suricata Deployment Evolution and Design Decisions
+# 🧱 Suricata Deployment Evolution and Design Decisions
 
 ## Overview
 
