@@ -104,9 +104,24 @@ This repository contains my hands-on cybersecurity and IT projects, learning not
 ## 📁 Portfolio Structure Overview
 <br>
 
-### 🚀 [Projects](Projects)
+### 🚀 Projects
 
-#### 🛡️ [SOC Home Lab](Projects/SOC_Home_Lab)
+#### 🛡️ [Enterprise Security Architecture — SOC Analyst View]
+
+An interactive, browser-based enterprise security architecture with clickable components, guided attack scenario walkthroughs, and SOC analyst notes mapped to MITRE ATT&CK and the Cyber Kill Chain.
+
+- Component-level telemetry, detection logic, and hardening guidance
+- Three attack scenarios: OAuth consent abuse, password spray, web exploit
+- Animated attack path with Kill Chain and MITRE technique mapping
+- No installation required — runs live in the browser
+
+📖 Read the [README](https://github.com/Ben8819/Enterprise-Security-Architecture/blob/main/README.md) before diving in — it explains the project context, research background, and how to get the most out of it.
+
+🌐 Live demo: [Enterprise Security Architecture — SOC Analyst View](https://ben8819.github.io/Enterprise-Security-Architecture/)
+<br><br>
+
+
+#### 🛡️ [SOC Home Lab]
 
 A complete Security Operations Center (SOC) lab including:
 
@@ -116,37 +131,38 @@ A complete Security Operations Center (SOC) lab including:
 - Incident investigation workflows
 - Hardening and lessons learned
 
-➡️ Start here: [`SOC Home Lab Project README`](Projects/SOC_Home_Lab/README.md)
+📖 Start here: [README](Projects/SOC_Home_Lab/README.md)
 <br><br>
 
-
+---
 ### 📚 [Learning](Learning)
-
-Structured notes and fundamentals:
-- Networking
-- Linux
-- Security concepts
-- Tools and techniques
+These are an overview of the topic areas I have studied. This section reflects the foundational knowledge built before and alongside the projects above — and continues to grow as I learn.
+- Cybersecurity
+- Networking  
+- Operating Systems  
+- Computer Science Principles
+- ...
 <br>
 
-
+---
 ### 🧰 [Tools & Cheatsheets](Tools_And_Cheat_Sheets)
 
 Practical command references for:
-- Nmap
-- Suricata
-- Splunk
-- pfSense
-- Linux utilities
-...
+
+- [Linux CLI](Tools_And_Cheat_Sheets/CLI_References/Linux_CLI_Command_Bible.md)
+- [Windows Logs and Sysmon](Tools_And_Cheat_Sheets/Windows/Windows_Logs_And_Sysmon.md)
+- ...
 <br>
 
-
-### 📖 [Resources & References](Resources_And_References/Resources_And_References.md)
-
-Books, blogs, videos and official documentation used throughout the projects.
+🔧 More tools and references will be added progressively as I continue learning and migrate my notes into this portfolio.
+<br>
 
 ---
+### 📖 [Resources & References](Resources_And_References/Resources_And_References.md)
+
+Books, blogs, videos and official documentation used throughout the projects and my learning journey.
+
+----
 <br>
 
 ## 🎯 My Goals
