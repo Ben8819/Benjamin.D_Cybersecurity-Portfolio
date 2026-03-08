@@ -32,7 +32,8 @@ All internal traffic is routed through pfSense, allowing centralized visibility 
 
 A full network topology diagram is provided in this directory for reference.
 
-[Topology_diagram](Screenshots/Topology_diagram.png)
+[Full Lab diagram](Screenshots/Home_SOC_Lab_Diagram.png)<br>
+[GNS3 Technical_diagram](Screenshots/Topology_diagram.png)
 
 ---
 
