@@ -57,7 +57,21 @@ Used for:
 - SIEM basics  
 - Windows/Linux log analysis  
 - Network security rooms  
-- Blue team challenges  
+- Blue team challenges
+
+--
+
+### 🌐 Cisco Networking Academy
+https://www.netacad.com
+
+Used for:
+
+- Networking fundamentals (CCNA)
+- IP addressing & subnetting
+- VLANs & inter-VLAN routing
+- Routing protocols (OSPF, static routes)
+- Network security basics
+- ...
 
 ---
 
@@ -176,6 +190,7 @@ These resources support my understanding of scripting, automation, web technolog
 
 - **Computerphile** - https://www.youtube.com/@Computerphile
 - **PowerCert Animated Videos** - https://www.youtube.com/@PowerCertAnimatedVideos
+- **Jeremy's IT Lab** - https://www.youtube.com/@JeremysITLab
 - **Professor Messer** — https://www.youtube.com/@professormesser  
 - **NetworkChuck** — https://www.youtube.com/@NetworkChuck 
 - **freeCodeCamp.org** - https://www.youtube.com/@freecodecamp
